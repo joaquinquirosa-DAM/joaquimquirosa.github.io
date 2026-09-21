@@ -1,41 +1,64 @@
-/*Caracteristiques de la pagina */
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: blueviolet;
+    text-align: left;
+    margin-top: 60px; 
+    margin-left: 40px;
+
+    background-color: #F8FAFC;
+    color: #1E293B;
 }
 
-/* Nom */
-h1 {
-    text-align: center;
-    color: rgb(69, 0, 133);
-    font-weight: bold;
-    background-color: rgb(254, 0, 0);
-    padding: 20px;
-    border-radius: 10px;
+.nom{
+    color: #2563EB;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-bottom: 3px solid #93C5FD;
+    padding-bottom: 10px;
 }
 
-
-
-/* Tituls */
 h2{
-    text-align: center;
-    
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #1e293b;
+    font-size: 24px;
+    border-bottom: 2px solid #93C5FD;
+    padding-bottom: 5px;
 }
 
-p{
+.habilitats{
+    text-align: center;
+}
+
+.sobreMi{
+    border: 2px solid #CBD5E1;
     background-color: white;
     padding: 20px;
-    padding-left: 100px;
-}
-p, ol{
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+
     text-align: justify;
-    margin-left: 60px;
-    margin-right: 60px;
-    
+    font-family:'Poppins', sans-serif;
+    color: black
 }
 
-ul{
+.formacions{
     text-align: center;
+}
+
+.tituls{
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.tituls li{
+    font-weight: bold;
+    background-color: white;
+    border-left: 4px solid #2563EB;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
