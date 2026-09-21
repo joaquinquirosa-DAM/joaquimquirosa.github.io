@@ -46,14 +46,14 @@ h2{
     text-align: center;
 }
 
-.tituls{
+.titulsF{
     list-style-type: none;
     max-width: 800px;
     margin: 0 auto;
     padding: 0;
 }
 
-.tituls li{
+.titulsF li{
     font-weight: bold;
     background-color: white;
     border-left: 4px solid #2563EB;
@@ -61,4 +61,9 @@ h2{
     margin-bottom: 12px;
     border-radius: 6px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+
+.java{
+    list-style-image: url(java.png);
 }
