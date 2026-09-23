@@ -2,7 +2,6 @@ body{
     text-align: left;
     margin-top: 60px; 
     margin-left: 40px;
-
     background-color: #F8FAFC;
     color: #1E293B;
 }
@@ -36,7 +35,6 @@ h2{
     border-radius: 10px;
     margin-left: 200px;
     margin-right: 200px;
-
     text-align: justify;
     font-family:'Poppins', sans-serif;
     color: black
@@ -63,7 +61,83 @@ h2{
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
+.llenguatgues li{
+    list-style-type: none;
+    font-weight: bold;
+    background-color: white;
+    border-left: 4px solid #2563EB;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
 
-.java{
-    list-style-image: url(java.png);
+
+.contectes {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #2563eb;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 275px;
+}
+
+.filtres{
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5 rem;
+}
+
+.filtres label{
+    margin-right: 1rem;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid rgb(88, 88, 233);
+    border-radius: 99px;
+    font-weight: bold;
+}
+
+.filtres p{
+    margin: 10px;
+}
+
+.filtres label:has(input:checked){
+    background: rgb(88, 88, 233);
+}
+
+
+body:has(#web:checked) .pj:not(.web), 
+body:has(#jv:checked) .pj:not(.jv){
+    display: none;
+}
+
+
+.projecte{
+    display: flex;
+    gap: 1rem;
+    padding: 50px;
+    
+}
+
+.pj{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #2563EB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+a{
+    text-decoration: none;
 }
